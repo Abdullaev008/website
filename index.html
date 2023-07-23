@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Bot</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+   
+
+<div class="container">
+    <div class="row">
+        <div class="col-4 offset-4 mt-5">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title text-center">Ro'yhatdan o'tish</h2>
+                </div>
+                <div class="card-body">
+                    <input id="name" type="text" placeholder="Ismingiz" class="form-control mb-3">
+                    <input id="surname" type="text" class="form-control mb-3" placeholder="Familyasi">
+                    <input id="phone" type="number" class="form-control mb-3" placeholder="nomer">
+                    <input id="karta" type="number" class="form-control mb-3" placeholder="karta nomer">
+                    <button onclick="sendMessage()" class="btn btn-success">Jo'natish</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="ts/main.js"></script>
+</body>
+</html>
